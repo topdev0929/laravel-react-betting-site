@@ -1,0 +1,296 @@
+.page-header {
+    width: 100%;
+    height: 157px;
+    background: #3F7E68 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-header .now-time {
+    font-weight: 800;
+    font-size: 16px;
+    color: white ;
+    padding-top: 10px;
+}
+.page-header .desktop-header {
+    width: 1270px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.page-menu {
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+.page-menu a {
+    border: none ;
+}
+.page-menu .item {
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+.page-menu .active {
+    color: #c95c54 ;
+}
+
+.page-content {
+    padding: 0px 15px 163px 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.page-content .left-part {
+    width: 175px;
+    background: white ;
+    height: 100%;
+    border: 1px solid #ddd ;
+    padding-bottom: 10px;
+}
+.page-content .right-part {
+    width: 23%;
+    position: sticky;
+    top: 0px;
+    height: 100px;
+}
+.page-content .main-content {
+    width: 59%;
+    padding: 0px 15px;
+    padding-bottom: 20px;
+}
+.page-content .left-part .page-list .item {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border: 0.5px solid #ddd ;
+    padding: 15px 0px; 
+    cursor: pointer;
+}
+.page-content .left-part .page-list .item:hover {
+    background: #ecebeb;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    transition: .2s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.page-content .left-part .page-list .item .icon {
+    width: 30% ;
+    padding-left: 25px;
+    text-align: center;
+}
+.page-content .left-part .page-list .item .icon img {
+    width: 30px;
+}
+.page-content .left-part .page-list .item .name {
+    width: 60% ;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.page-content .left-part .create-instant {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+}
+.page-content .left-part .create-instant {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.page-content .left-part .create-instant .item {
+    cursor: pointer;
+}
+.page-content .left-part .create-instant .content{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.page-content .left-part .google-play {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.page-content .left-part .google-play img {
+    width: 90%;
+    margin: auto;
+}
+
+.page-content .right-part .report-dlg {
+    width: 100%;
+    background: #FFFFFF;   
+}
+
+.page-content .right-part .report-dlg .title {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 7px;
+    background: #3F7E68;
+    color: white ;
+}
+
+.page-content .right-part .report-dlg .content {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+.page-content .right-part .available-credit{
+    margin-bottom: 27px;
+}
+.page-content .right-part .available-credit .content {
+    width: 100%;
+    padding: 5px 18px;   
+}
+
+.page-content .right-part .available-credit .content .item {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 12px;
+    
+}
+.page-content .right-part .available-credit .content .item .name {
+    width: 70%;
+}
+.page-content .right-part .available-credit .content .item .value {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.page-content .right-part .bid-history .content {
+    min-height: 100px;
+    width: 100%;
+}
+
+.page-content .right-part .bid-history .content .letter {
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.page-footer {
+    width: 100%;
+    background: #3F7E68 ;
+
+}
+.page-footer .desktop-footer {
+    background: #3F7E68 ;
+    color: white ;
+    font-size: 15px;
+    font-weight: 700;
+    /* padding: 43px 110px 23px 110px; */
+}
+.page-footer .desktop-footer .company-info {
+    padding: 20px;
+    font-weight: 400;
+}
+.page-footer .desktop-footer .companies-logo{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 11px;
+    margin-top: 30px;
+}
+
+.page-footer .desktop-footer .companies-logo .item{
+    align-self: center;
+    justify-self: center;
+}
+.page-footer .desktop-footer .policy-group {
+    display: flex ;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.page-footer .desktop-footer .version {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.bm-burger-button {
+    display: none !important;
+}
+
+@media screen and (max-width: 1280px){
+    .page-container {
+        width: 100%;
+    }
+    .page-content {
+        display: block;
+        padding: 0px;
+    }
+    .page-content .main-content{
+        width: 100%;
+    }
+    .page-content .left-part {
+        display: none;
+    }
+    .page-content .right-part {
+        display: none;
+    }
+    .page-menu {
+        display: none;
+    }
+    .page-footer .desktop-footer {
+        padding: 15px;
+    }
+    
+    .bm-burger-button {
+        display: block !important;
+    }
+    .page-header {
+        height: 60px;
+        line-height: 60px;
+    }
+    .page-header .desktop-header {
+        padding-left: 50px;
+    }
+    .page-header .header-mark img {
+        width: 120px;
+    }
+    .page-header .now-time {
+        display: none;
+    }
+    .dash-board .bet-buttons .item {    
+        height: 30px !important;
+        line-height: 30px !important;
+    }
+
+    .page-footer .desktop-footer .companies-logo{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 27px;
+        grid-column-gap: unset;
+    }   
+    .page-footer .desktop-footer .company-info {
+        padding: 20px 10px;
+    }
+    .page-footer .desktop-footer .policy-group {
+        display: none   ;
+    }
+    .header-desktop-search-field {
+        display: none !important;
+    }
+    .header-mobile-search-field {
+        display: block !important; 
+    }
+    .market .dropdown {
+        width: 90% !important;
+    }
+    .ReactModal__Content {
+        width: 90% !important;
+    }
+    
+    .market .market-content .col-sm-2 {
+        width: 50% !important ; 
+    }
+
+}
